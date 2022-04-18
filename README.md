@@ -82,7 +82,9 @@ Thermistors either NTC ot PTC are typically wired in a voltage divider scenario.
 <br>
 <br>
 https://github.com/KrisKasprzak/Thermistor/blob/main/Images/Readings.jpg
-
+<br>
+<br>
+![header image](https://raw.github.com/KrisKasprzak/Thermistor/master/Images/Readings.jpg)
 <br>
 <br>.
 <br> 
