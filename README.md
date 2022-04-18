@@ -12,10 +12,12 @@ Create the object based on how you want to compute the tempeature
 <ul>
 	<li>If you have the B-value, center temp and center resistance</li>
 	Thermistor(double B, double CenterTempC, double CenterResistance);
-  
+   </ul>
+   <ul>
   	<li>if you have 3 thermal constances as reported by the data sheet</li>
 	Thermistor(double R1, double ConstA1, double ConstB1, double ConstC1);
-  
+   </ul>
+   <ul>
   	<li>if you have 4 thermal constances as reported by the data sheet</li>
 	Thermistor(double R1, double ConstA1, double ConstB1, double ConstC1, double ConstD1);
   </ul>
