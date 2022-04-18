@@ -41,7 +41,7 @@ This library is intended to be used with thermistors of type NTC or PTC. This li
 
 <b>Typical Wiring</b>
 	
-	![header image](https://raw.github.com/KrisKasprzak/Thermistor/master/Images/Wiring.jpg)
+	![header image](https://raw.github.com/KrisKasprzak/Thermistor/master/Images/wiring.jpg)
   
 <b>Typical Wiring</b>
  1. Use a voltage divider as shown above
@@ -52,7 +52,7 @@ This library is intended to be used with thermistors of type NTC or PTC. This li
  6. Pass R2 in to the getTempF, getTempC, getTempK, or getTempR methods
 
 
-Tips on reducing noisy readings
+<b>Tips on reducing noisy readings</b>
 1. add decoupling capacitors to the power supply for the voltage divider (100 uF and 0.1 uF to start)
 2. add decoupling capactitors across the thermistor (10 uF and 0.1 uF to start)
 3. use averaging
