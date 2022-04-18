@@ -69,6 +69,21 @@ Thermistors either NTC ot PTC are typically wired in a voltage divider scenario.
 5. Use 10 bit resolution input if you are using a Teensy 4.0, Teensy 3.2 seem clean at even 12 bits (analogReadRes(BIT))
 
 
+Typical reading response chart
+
+<br>
+	![header image](https://raw.github.com/KrisKasprzak/Thermistor/master/Images/Readings.jpg)
+  <br>
+  
+1. Readings for a 30-minute period
+2. R1 = 10K resistor
+3. Teensy 4.0, 10 bit read resolution
+4. 0.1 uF decopuling cap across Thermistor
+5. approx 57,000 read per second
+6. Recordings taken every 500 ms
+7. Test environment: desk in my home office
+8. Breadboard mounting, 3 inch jumper wires
+
 
 
 
