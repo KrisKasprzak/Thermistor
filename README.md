@@ -9,14 +9,14 @@ This library is intended to be used with thermistors of type NTC or PTC. This li
 
 Create the object based on how you want to compute the tempeature
 
-if you have the B-value, center temp and center resistance
 <ul>
-	<li>Thermistor(double B, double CenterTempC, double CenterResistance);</li>
+	<li>If you have the B-value, center temp and center resistance</li>
+	Thermistor(double B, double CenterTempC, double CenterResistance);
   
-  if you have 3 thermal constances as reported by the data sheet
+  	<li>if you have 3 thermal constances as reported by the data sheet</li>
 	Thermistor(double R1, double ConstA1, double ConstB1, double ConstC1);
   
-  if you have 4 thermal constances as reported by the data sheet
+  	<li>if you have 4 thermal constances as reported by the data sheet</li>
 	Thermistor(double R1, double ConstA1, double ConstB1, double ConstC1, double ConstD1);
   </ul>
   
