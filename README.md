@@ -48,9 +48,9 @@ This library is intended to be used with thermistors of type NTC or PTC. This li
 <b>Typical Wiring</b>
 <br>
 Thermistors either NTC ot PTC are typically wired in a voltage divider scenario. This allows the voltage to be measured across them and resistance computed. 
-	<br>
+<br>
 	![header image](https://raw.github.com/KrisKasprzak/Thermistor/master/Images/Wiring.jpg)
-  <br>
+<br>
 <b>Computing Thermistor Resistance</b>
  1. Use a voltage divider as shown above
  2. Measure the bits at the analog pin
@@ -70,11 +70,11 @@ Thermistors either NTC ot PTC are typically wired in a voltage divider scenario.
 
 
 <b>Typical reading response chart</b>
-
 <br>
-	![header image](https://raw.github.com/KrisKasprzak/Thermistor/Images/master/Readings.jpg)
-  <br>
-  
+<br>
+	![header image](https://raw.github.com/KrisKasprzak/Thermistor/master/Images/Readings.jpg)
+<br>
+ <br> 
 1. Readings for a 30-minute period
 2. R1 = 10K resistor
 3. Teensy 4.0, 10 bit read resolution
