@@ -1,13 +1,10 @@
 # Thermistor
 
-<b><h2><center>Thermistors</center></h1></b>
-
-<b><h1>Updates</b>
-	<ul>
+<b>Updates</b>
+<ul>
 <li>4/18/2021 - initial creation</li>
 </ul>
 <br>
-
 
 This library is intended to be used with thermistors of type NTC or PTC. This library will convert the thermistors resistance to a temperature given the thermistors B-value, center temperature and center resistence (the typical approach), or if you have the thermistors thermal constants (less popular method). Methods are provided for you to measure the resistence, pass that resistence in, and get a temperature back, or you can pass in an analog pin, number of averages, and a few other parameters and the library will get the average and send back the temperature. Note this "autoMeasure" approach is blocking and will not return control until the measurements are made.
 
