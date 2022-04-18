@@ -25,20 +25,16 @@ Create the object based on how you want to compute the tempeature
   
   Use the begin method to designate how you want computations made
  <ul>
-  	<li>If your code measures, averages, and computes the thermistors resistance, omit arguements in the begin method</li>
+  	<li>If your code measures, averages, and computes the thermistors resistance, omit arguements in the begin method. Then use the getTempX, passing in the 	resistence and a temp is returned</li>
 	void begin();
-	</ul>
- <ul>
-	<li>Pass in the resistence and a temp is returned</li>
+	
   	double getTempF(double Resistance = 0.0);
  </ul>
-  
-  If you want the library to measure temperatures 
-  pass in the analog pin, and other parameters
-  void begin(int AnalogReadPin, unsigned long ReadSamples, unsigned long ReadResolution, unsigned long R1, double VoltageDividerVolts);
-Then when requesting a temperature, do not pass in anything
+  <ul>
+  	<li>If you want the library to measure, average, and compute temperatures pass in the analog pin, and other parameters to the begin method. Then use the 	getTempX and omit any arguements</li>
+  	void begin(int AnalogReadPin, unsigned long ReadSamples, unsigned long ReadResolution, unsigned long R1, double VoltageDividerVolts);
 	double getTempF();
-	
+	 </ul>
 	Typical Wiring
 	
 	![header image](https://raw.github.com/KrisKasprzak/Thermistor/master/Images/Wiring.jpg)
