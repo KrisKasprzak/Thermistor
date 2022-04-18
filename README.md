@@ -12,23 +12,26 @@ Create the object based on how you want to compute the tempeature
 <ul>
 	<li>If you have the B-value, center temp and center resistance</li>
 	Thermistor(double B, double CenterTempC, double CenterResistance);
-   </ul>
-   <ul>
+</ul>
+<ul>
   	<li>if you have 3 thermal constances as reported by the data sheet</li>
 	Thermistor(double R1, double ConstA1, double ConstB1, double ConstC1);
-   </ul>
-   <ul>
+</ul>
+<ul>
   	<li>if you have 4 thermal constances as reported by the data sheet</li>
 	Thermistor(double R1, double ConstA1, double ConstB1, double ConstC1, double ConstD1);
-  </ul>
+</ul>
   
-  use the begin method to designate how you want computations made
   
-  Use no arguements will require you compute the thermistors resistance
+  Use the begin method to designate how you want computations made
+ <ul>
+  	<li>If your code measures, averages, and computes the thermistors resistance, omit arguements in the begin method</li>
 	void begin();
-  Pass in the resistence and a temp is returned
-  double getTempF(double Resistance = 0.0);
-  
+	</ul>
+ <ul>
+	<li>Pass in the resistence and a temp is returned</li>
+  	double getTempF(double Resistance = 0.0);
+ </ul>
   
   If you want the library to measure temperatures 
   pass in the analog pin, and other parameters
