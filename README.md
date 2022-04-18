@@ -41,8 +41,7 @@ This library is intended to be used with thermistors of type NTC or PTC. This li
 
 <b>Typical Wiring</b>
 	<br>
-	![header image](https://raw.github.com/KrisKasprzak/Thermistor/master/Wiring.jpg)
-	![header image](https://raw.github.com/KrisKasprzak/ESP32_WebPage/master/screen.jpg)
+	![header image](https://raw.github.com/KrisKasprzak/Thermistor/Images/master/Wiring.jpg)
   <br>
 <b>Typical Wiring</b>
  1. Use a voltage divider as shown above
