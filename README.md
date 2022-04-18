@@ -2,7 +2,7 @@
 
 <b>Updates</b>
 <ul>
-<li>4/18/2021 - initial creation</li>
+<li>4/18/2021 - initial creation (2021 tax day for the USA, yay!</li>
 </ul>
 <br>
 
