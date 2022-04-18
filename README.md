@@ -27,8 +27,7 @@ Create the object based on how you want to compute the tempeature
  <ul>
   	<li>If your code measures, averages, and computes the thermistors resistance, omit arguements in the begin method. Then use the getTempX, passing in the 	resistence and a temp is returned</li>
 	void begin();
-	
-  	double getTempF(double Resistance = 0.0);
+	double getTempF(double Resistance = 0.0);
  </ul>
   <ul>
   	<li>If you want the library to measure, average, and compute temperatures pass in the analog pin, and other parameters to the begin method. Then use the 	getTempX and omit any arguements</li>
