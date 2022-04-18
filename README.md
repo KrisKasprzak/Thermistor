@@ -41,9 +41,9 @@ This library is intended to be used with thermistors of type NTC or PTC. This li
 
 <b>Typical Wiring</b>
 	<br>
-	![header image](https://raw.github.com/KrisKasprzak/Thermistor/Images/master/Wiring.jpg)
+	![header image](https://raw.github.com/KrisKasprzak/Thermistor/master/Images/Wiring.jpg)
   <br>
-<b>Typical Wiring</b>
+<b>Computing Thermistor Resistence</b>
  1. Use a voltage divider as shown above
  2. measure the bits at the analog pin
  3. convert bits to volts
