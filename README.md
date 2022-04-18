@@ -41,7 +41,7 @@ This library is intended to be used with thermistors of type NTC or PTC. This li
 
 <b>Typical Wiring</b>
 	
-	![header image](https://raw.github.com/KrisKasprzak/Thermistor/master/Images/wiring.jpg)
+	![header image](https://raw.github.com/KrisKasprzak/Thermistor/master/Wiring.jpg)
   
 <b>Typical Wiring</b>
  1. Use a voltage divider as shown above
