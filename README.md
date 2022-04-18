@@ -30,6 +30,7 @@ This library is intended to be used with thermistors of type NTC or PTC. This li
 	<br>
 	void begin();
 	<br>
+	<br>
 	double getTempF(double Resistance = 0.0);
  </ul>
   <ul>
@@ -37,20 +38,23 @@ This library is intended to be used with thermistors of type NTC or PTC. This li
 	<br>
   	void begin(int AnalogReadPin, unsigned long ReadSamples, unsigned long ReadResolution, unsigned long R1, double VoltageDividerVolts);
 	<br>
+	<br>
 	double getTempF();
 	 </ul>
 
 <b>Typical Wiring</b>
+Thermistors either NTC ot PTC are typically wired in a voltage divider scenario. This allows the voltage to be measured across them and resistence computed. 
 	<br>
 	![header image](https://raw.github.com/KrisKasprzak/Thermistor/master/Images/Wiring.jpg)
   <br>
 <b>Computing Thermistor Resistence</b>
  1. Use a voltage divider as shown above
  2. measure the bits at the analog pin
- 3. convert bits to volts
+ 3. convert bits to volts using the appropriate bit resolution 1024 for 10 bit MCU's. volts = bits / resolution;
  4. using a voltage divider equation Vo = Vi (R2 / (R1 + R2))
  5. Use the equation to solve for R2 (R2 (Vi * R1) / (Vo - Vi);
  6. Pass R2 in to the getTempF, getTempC, getTempK, or getTempR methods
+ 7. Make sure calculations are based on floats or doubles.
 
 
 <b>Tips on reducing noisy readings</b>
