@@ -34,7 +34,7 @@ Then when requesting a temperature, do not pass in anything
 	double getTempF();
 	
 	Typical Wiring
-	![header image](https://raw.github.com/KrisKasprzak/Thermistor/master/Images/Wiring.jpg)
+	https://raw.github.com/KrisKasprzak/Thermistor/master/Images/Wiring.jpg
   
   How to compute a resistence
  1. Use a voltage divider
