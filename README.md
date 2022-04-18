@@ -69,10 +69,10 @@ Thermistors either NTC ot PTC are typically wired in a voltage divider scenario.
 5. Use 10 bit resolution input if you are using a Teensy 4.0, Teensy 3.2 seem clean at even 12 bits (analogReadRes(BIT))
 
 
-Typical reading response chart
+<b>Typical reading response chart</b>
 
 <br>
-	![header image](https://raw.github.com/KrisKasprzak/Thermistor/master/Images/Readings.jpg)
+	![header image](https://raw.github.com/KrisKasprzak/Thermistor/Images/master/Readings.jpg)
   <br>
   
 1. Readings for a 30-minute period
