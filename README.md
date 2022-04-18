@@ -7,7 +7,7 @@
 
 This library is intended to be used with thermistors of type NTC or PTC. This library will convert the thermistors resistance to a temperature given the thermistors B-value, center temperature and center resistence (the typical approach), or if you have the thermistors thermal constants (less popular method). Methods are provided for you to measure the resistence, pass that resistence in, and get a temperature back, or you can pass in an analog pin, number of averages, and a few other parameters and the library will get the average and send back the temperature. Note this "autoMeasure" approach is blocking and will not return control until the measurements are made.
 
-Create the object based on how you want to compute the tempeature
+<b>Create the object based on how you want to compute the tempeature</b>
 
 <ul>
 	<li>If you have the B-value, center temp and center resistance</li>
@@ -38,9 +38,25 @@ Create the object based on how you want to compute the tempeature
 	<br>
 	double getTempF();
 	 </ul>
-	Typical Wiring
+
+<b>Typical Wiring</b>
 	
 	![header image](https://raw.github.com/KrisKasprzak/Thermistor/master/Images/Wiring.jpg)
   
-  How to compute a resistence
- 1. Use a voltage divider
+<b>Typical Wiring</b>
+ 1. Use a voltage divider as shown above
+ 2. measure the bits at the analog pin
+ 3. convert bits to volts
+ 4. using a voltage divider equation Vo = Vi (R2 / (R1 + R2))
+ 5. Use the equation to solve for R2 (R2 (Vi * R1) / (Vo - Vi);
+ 6. Pass R2 in to the getTempF, getTempC, getTempK, or getTempR methods
+
+
+Tips on reducing noisy readings
+1. add decoupling capacitors to the power supply for the voltage divider (100 uF and 0.1 uF to start)
+2. add decoupling capactitors across the thermistor (10 uF and 0.1 uF to start)
+3. use averaging
+4. user AGND if you are using a Teensy AGND is a more insulated ground intended for analog pins
+5. use 10 bit resolution input if you are using a Teensy 4.0, Teensy 3.2 seem clean at even 12 bits (analogReadRes(BIT))
+6.
+
