@@ -80,9 +80,10 @@ Thermistors either NTC ot PTC are typically wired in a voltage divider scenario.
 7. Test environment: desk in my home office
 8. Breadboard mounting, 3 inch jumper wires
 <br>
+<br>
 	![header image](https://raw.github.com/KrisKasprzak/Thermistor/master/Images/Readings.jpg)
 <br>
- <br> 
+<br> 
 
 
 
