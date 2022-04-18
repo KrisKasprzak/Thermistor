@@ -32,6 +32,9 @@ if you have the B-value, center temp and center resistance
   void begin(int AnalogReadPin, unsigned long ReadSamples, unsigned long ReadResolution, unsigned long R1, double VoltageDividerVolts);
 Then when requesting a temperature, do not pass in anything
 	double getTempF();
+	
+	Typical Wiring
+	![header image](https://raw.github.com/KrisKasprzak/ILI9341_t3_Menu/master/Images/Wiring.jpg)
   
   How to compute a resistence
  1. Use a voltage divider
