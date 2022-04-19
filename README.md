@@ -71,7 +71,6 @@ Thermistors either NTC ot PTC are typically wired in a voltage divider scenario.
 
 <b>Typical reading response chart</b>
 <br>
-<br>
 1. Readings for a 30-minute period
 2. R1 = 10K resistor
 3. Teensy 4.0, 10 bit read resolution
@@ -85,7 +84,7 @@ Thermistors either NTC ot PTC are typically wired in a voltage divider scenario.
 ![](Images/DataPlot.jpg)
 <br>
 <br> 
-
+#
 
 
 
