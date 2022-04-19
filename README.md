@@ -72,7 +72,7 @@ Thermistors either NTC ot PTC are typically wired in a voltage divider scenario.
 <b>Typical reading response chart</b>
 <br>
 <br>
-![](Images/Readings.jpg)
+![](Images/Plot.jpg)
 <br>
 <br>
 1. Readings for a 30-minute period
