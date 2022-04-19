@@ -72,13 +72,13 @@ Thermistors either NTC ot PTC are typically wired in a voltage divider scenario.
 <b>Typical reading response chart</b>
 <br>
 <br>
-![](Images/Plot.jpg)
+![](Images/DataPlot.jpg)
 <br>
 <br>
 1. Readings for a 30-minute period
 2. R1 = 10K resistor
 3. Teensy 4.0, 10 bit read resolution
-4. 0.1 uF decopuling cap across Thermistor
+4. 0.1 uF decoupling cap across Thermistor
 5. approx 57,000 read per second
 6. Recordings taken every 500 ms
 7. Test environment: desk in my home office
